@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/ivUlkeBayrak"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tvUlkeAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ivUlkeBayrak"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/ivUlkeBayrak"
+        android:text="Başkent" />
+
+    <TextView
+        android:id="@+id/tvBaskent"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="-1dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBaskent"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ivUlkeBayrak"
+        android:text="Kuruluş" />
+
+    <TextView
+        android:id="@+id/tvKurulus"
+        android:layout_width="124dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/tvBaskent"
+        android:layout_alignStart="@+id/tvBaskent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="77dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ivUlkeBayrak"
+        android:text="Tel Kodu" />
+
+    <TextView
+        android:id="@+id/tvTelKodu"
+        android:layout_width="125dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/tvKurulus"
+        android:layout_alignStart="@+id/tvBaskent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="77dp"
+        android:text="TextView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tvTelKodu"
+        android:background="@color/colorPrimary"
+
+        >
+
+    </View>
+
+
+
+</RelativeLayout>
